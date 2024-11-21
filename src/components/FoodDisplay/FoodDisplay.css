@@ -1,0 +1,14 @@
+.food-display-container h1{
+    margin-bottom: 20px;
+    color:  black;
+    font-weight: 500;
+    font-size:xx-large
+}
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 30px;
+  row-gap: 50px;
+}
+
